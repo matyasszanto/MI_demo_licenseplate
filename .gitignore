@@ -1,6 +1,8 @@
 # User & data libraries
 DEMO/Database/test_0_45_highres
-DEMO/Database/851_highres
+DEMO/Database/926_highres
+DEMO/Database/926_plates
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
