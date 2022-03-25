@@ -1,8 +1,13 @@
 #!/usr/bin/env bash
 
+####################### READ ME FIRST! ##########################
 #place this file in the subfolder where the images are downloaded
-license_plates=( $(tail -n +2 ../rendszamok270.csv | head -n +46 | cut -d ';' -f2) )
-image_urls_original=( $(tail -n +2 ../rendszamok270.csv | head -n +46 | cut -d ';' -f6) )
+#replace "../rendszamok270.csv" in lines 9 & 10 with the csv for
+#the current data export
+#################################################################
+
+license_plates=( $(tail -n +2 ../rendszamok903.csv | cut -d ';' -f2) )
+image_urls_original=( $(tail -n +2 ../rendszamok903.csv | cut -d ';' -f6) )
 declare -a image_names_original=()
 for i in "${!image_urls_original[@]}"
 do
