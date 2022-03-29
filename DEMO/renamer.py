@@ -15,7 +15,7 @@ def main():
     proj_path = definitions.get_project_path()
 
     # set image folder of images to be renamed
-    base_path = f"{proj_path}/DEMO/Database/03_29_plates"
+    base_path = f"{proj_path}/DEMO/Database/03_29_highres"
 
     # set original csv file path
     csv_path = f"{proj_path}/rendszamok_regular_unique_03_29.csv"
@@ -28,7 +28,7 @@ def main():
 
         # load and separate csv file into columns
         num_plates_csv = csv.reader(csvfile,
-                                    delimiter='\t',
+                                    delimiter=';',
                                     )
 
         # create arrays of image_names and license_plates
