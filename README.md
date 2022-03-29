@@ -3,6 +3,11 @@
 ##Scraping platesmania for Hungarian license plates
 1. Start jupyter notebook in Firefox and run scrape.ipynb. This will result in a number of backups and a `rendszamok.csv`
 2. From the `rendszamok.csv` file, paste one of the rows into a new csv (you have to do this separately for columns)
+   1. At this point, it is a good idea to:
+      1. Merge with older versions to have more data points
+      2. Get rid of duplicates
+      3. Get rid of non-regular license-plates (unless you want to keep them)\
+      
 3. Create a folder in `DEMO/Database` for the images you want to download - for the sake of the example, we will call
 this file `urls_highres.csv`.
 4. Start a terminal in the newly created folder and run the following command:
