@@ -1,6 +1,6 @@
-#MI_demo_licenseplate
+# MI_demo_licenseplate
 
-##Scraping platesmania for Hungarian license plates
+## Scraping platesmania for Hungarian license plates
 1. Start jupyter notebook in Firefox and run scrape.ipynb. This will result in a number of backups and a `rendszamok.csv`
 2. From the `rendszamok.csv` file, paste one of the rows into a new csv (you have to do this separately for columns)
    1. At this point, it is a good idea to:
